@@ -1,6 +1,6 @@
 #!/bin/bash
 read -n 1 -s -r -p "Переместите бинарный файл программы в папку, где находится скрипт, и нажмите любую клавишу..."
-
+echo " "
 sudo cp ./applications/ds9.desktop /usr/share/applications/
 sudo cp ./pixmaps/ds9.png /usr/share/pixmaps/ds9.png
 sudo mv ./ds9 /usr/bin/ds9
